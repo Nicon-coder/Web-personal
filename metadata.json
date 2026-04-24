@@ -1,46 +1,6 @@
-public class Root {
-	private String name;
-	private String description;
-	private List<?> requestFramePermissions;
-	private List<?> majorCapabilities;
-
-	public Root(String name, String description, List<?> requestFramePermissions, List<?> majorCapabilities) {
-		this.name = name;
-		this.description = description;
-		this.requestFramePermissions = requestFramePermissions;
-		this.majorCapabilities = majorCapabilities;
-	}
-
-	public String getName() {
-		return this.name;
-	}
-
-	public String getDescription() {
-		return this.description;
-	}
-
-	public List<?> getRequestFramePermissions() {
-		return this.requestFramePermissions;
-	}
-
-	public List<?> getMajorCapabilities() {
-		return this.majorCapabilities;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public void setDescription(String description) {
-		this.description = description;
-	}
-
-	public void setRequestFramePermissions(List<?> requestFramePermissions) {
-		this.requestFramePermissions = requestFramePermissions;
-	}
-
-	public void setMajorCapabilities(List<?> majorCapabilities) {
-		this.majorCapabilities = majorCapabilities;
-	}
+{
+  "name": "PT. Artha Karya Construction",
+  "description": "Perusahaan jasa konstruksi terpercaya: Mengarahkan Nilai, Mewujudkan Karya. Spesialis infrastruktur dan layanan teknik.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
 }
-
